@@ -1,4 +1,5 @@
 <?php
+// session start
 session_start();
 
 // Check if the admin is already logged in, redirect to admin.php if true
