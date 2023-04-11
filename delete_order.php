@@ -1,6 +1,7 @@
 <?php
+//  session start
 session_start();
-
+// config connection
 if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     header("Location: login.php");
     exit;
