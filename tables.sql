@@ -5,3 +5,4 @@ CREATE TABLE order_table (
   price DECIMAL(10, 2) NOT NULL,
   date DATE NOT NULL
 );
+-- put this in sql part in phpmyadmin
